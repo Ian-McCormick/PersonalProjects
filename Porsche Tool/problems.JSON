@@ -1,0 +1,44 @@
+{
+    "problems": [
+        {
+            "name": "misfire",
+            "description": "An intermittent misfire",
+            "severity": "5",
+            "possibleSolutions": [
+                {
+                    "name": "replace injectors",
+                    "parts": [
+                        {
+                            "name": "Fuel Injectors",
+                            "brand": "Bosch",
+                            "no": "10399U255",
+                            "cost": "84.50",
+                            "origin": "fiveOmotorsport"
+                        }
+                    ]
+                }
+            ],
+            "attemptedSolutions": [
+                {
+                    "name": "replace spark parts",
+                    "parts": [
+                        {
+                            "name": "Spark Plugs",
+                            "brand": "NGK",
+                            "no": "UNKNOWN",
+                            "cost": "0.00",
+                            "origin": "UNKNOWN"
+                        },
+                        {
+                            "name": "Spark Wires",
+                            "brand": "NGK",
+                            "no": "UNKNOWN",
+                            "cost": "0.00",
+                            "origin": "UNKNOWN"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
