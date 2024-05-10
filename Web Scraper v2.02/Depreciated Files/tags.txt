@@ -1,0 +1,44 @@
+AEGFX, MF, American Funds EuroPacific Growth Fund Class F-1
+AMFFX, MF, American Funds American Mutual Fund
+BA, Stock, Boeing
+BGRFX, MF, Baron Growth Fund Retail Shares
+CCVIX, MF, Calamos Convertible Fund Class A
+CIBFX, MF, American Funds Capital Income Builder-Class F-1
+CPXAX, MF, Cohen Steers Preferred Securities and Income Fund-Inc.Class A
+CSRSX, MF, Cohen Steers Realty Shares Fund
+EVFAX, MF, Eaton Vance Floating-Rate Advantage Adv
+FAGIX, MF, Fidelity Capital Income
+FEMKX, MF, Fidelity Emerging Markets Fund
+FLPSX, MF, Fidelity Low-Priced Stock Fund
+FNMIX, MF, Fidelity New Markets Income Fund
+FRUAX, MF, Franklin Utilities Fund Advance
+FSPHX, MF, Fidelity Select Health Care Portfolio
+FSUTX, MF, Fidelity Select Utilities Portfolio
+HWHIX, MF, Hotchkis and Wiley High Yield Fund Class I
+IRFAX, MF, Cohen Steers International Realty Fund Class A
+JSCOX, MF, Janus Henderson Small Cap Value I
+LFRIX, MF, Lord Abbett Floating Rate Fund Class I
+LMRIX, MF, 1919 Financial Services Fund Class 1
+LSBDX, MF, Loomis Sayles Bond Fund Institutional Class
+MLPDX, MF, Oppenheimer SteelPath Funds MLP Income Fund Class A
+MMUFX, MF, MFS Utilities Fund Class A
+MSFT, Stock, Microsoft
+MWTRX, MF, Metropolitan West Total Return Bond Fund Class M
+NBGNX, MF, Neuberger Berman Genesis Fund Investor Class
+NPSRX, MF, Nuveen Preferred Securities and Income Fund Class I
+NWFFX, MF, American Funds New World Fund Class F-1
+OAKEX, MF, Oakmark International Small Cap Investor
+OSTGX, MF, Osterweis Emerging Opportunity Fund
+PDMIX, MF, PIMCO GNMA and Government Securities Fund Institutional Class
+PFORX, MF, PIMCO International Bond Fund (U.S. Dollar-Hedged) Institutional Class
+PRPFX, MF, Permanent Portfolio Permanent I
+PTLDX, MF, PIMCO Low Duration Fund Institutional Class
+PTTRX, MF, PIMCO Total Return Fund Institutional Class
+SDGIX, MF, BNY Mellon Global Fixed Income I
+TBGVX, MF, Tweedy Browne Global Value Fund
+TRBCX, MF, T. Rowe Price Blue Chip Growth Fund
+TRIGX, MF, T Rowe Price Intl Value Equity Fund
+VEIRX, MF, Vanguard Equity Income Admiral
+VIPSX, MF, Vanguard Inflation-Protected Secs Inv
+VSIAX, MF, Vanguard Small Cap Value Index Fund Admiral Shares
+WCMSX, MF, WCM International Small Cap Growth Fund Institutional Class

@@ -1,0 +1,23 @@
+          <POSSTOCK>
+            <!--DTPRICEASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+            <INVPOS>
+              <!--Ticker from quote source is: BA-->
+              <SECID>
+                <UNIQUEID>%s</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+              </SECID>
+              <HELDINACCT>OTHER</HELDINACCT>
+              <POSTYPE>LONG</POSTYPE>
+              <UNITS>0.000</UNITS>
+              <UNITPRICE>%.3f</UNITPRICE>
+              <MKTVAL>0.00</MKTVAL>
+              <DTPRICEASOF>%s</DTPRICEASOF>
+              <!--Price currency is same as default currency-->
+              <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+              </CURRENCY>
+              <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+          </POSSTOCK>

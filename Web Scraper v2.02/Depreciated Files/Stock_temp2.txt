@@ -1,0 +1,21 @@
+      <STOCKINFO>
+        <!--Ticker from quote source is: BA-->
+        <!--DTASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+        <!--Security is treated as Stock-->
+        <SECINFO>
+          <SECID>
+            <UNIQUEID>%s</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+          </SECID>
+          <SECNAME>%s</SECNAME>
+          <TICKER>%s</TICKER>
+          <UNITPRICE>%.3f</UNITPRICE>
+          <DTASOF>%s</DTASOF>
+          <!--Price currency is same as default currency-->
+          <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+          </CURRENCY>
+          <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+      </STOCKINFO>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?OFX OFXHEADER="200" VERSION="200" SECURITY="NONE" OLDFILEUID="NONE" NEWFILEUID="NONE"?>
+<OFX>
+  <!--Created by hleOfxQuotes on: Mon Dec 02 13:06:20 PST 2019-->
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <!--DTSERVER local time is Mon Dec 02 13:06:20 PST 2019-->
+      <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+        <MESSAGE>Successful Sign On</MESSAGE>
+      </STATUS>
+      <DTSERVER>%s</DTSERVER>
+      <LANGUAGE>ENG</LANGUAGE>
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <INVSTMTMSGSRSV1>
+    <INVSTMTTRNRS>
+      <TRNUID>1637E38B-EADA-4C16-A3EB-22947D5FCB36</TRNUID>
+      <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+      </STATUS>
+      <!--DTASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+      <INVSTMTRS>
+        <DTASOF>%s</DTASOF>
+        <CURDEF>USD</CURDEF>
+        <INVACCTFROM>
+          <BROKERID>hungle.com</BROKERID>
+          <ACCTID>0123456789</ACCTID>
+        </INVACCTFROM>
+        <INVPOSLIST>
+		

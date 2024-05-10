@@ -3,6 +3,12 @@ import os
 from tkinter import filedialog
 from PIL import Image, ImageTk
 
+CURRENT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+
+class SharedData:
+    def __init__(self, image):
+        self.backgroundImage = image
+
 class DrawShapeApp:
     def __init__(self, parent, SBM):
         if SBM == None:
@@ -32,7 +38,9 @@ class DrawShapeApp:
         self.token_frame = tk.Frame(self.root)
         self.token_frame.grid(row=2, column=0)
         CUR_COL = 0
-        self.token_path = os.getcwd() + "\\Tokens"
+        self.token_path = CURRENT_DIRECTORY + "\\Tokens"
+        
+        #load buttons for all the tokens
         for token in os.listdir(self.token_path):
             image = Image.open(self.token_path + "\\" + token)
             image = image.resize((50,50))
@@ -46,12 +54,14 @@ class DrawShapeApp:
         self.canvas.bind("<ButtonPress-1>", self.on_press)
         self.canvas.bind("<B1-Motion>", self.on_drag)
         self.canvas.bind("<ButtonRelease-1>", self.on_release)
+        self.canvas.bind("<ButtonPress-3>", self.delete_shape)
 
         self.start_x = None
         self.start_y = None
         self.current_item = None
         self.current_action = None  # This is for moving shapes
 
+    #chenge which shape is being created
     def select_shape(self, shape):
         self.current_shape = self.shapes[shape]
         if shape == "Select":
@@ -68,6 +78,10 @@ class DrawShapeApp:
             self.current_item = self.current_shape(self.start_x, self.start_y, event.x, event.y)
         elif self.current_action == 'move':
             self.current_item = self.canvas.find_closest(event.x, event.y)[0]
+            print(self.current_item)
+            if self.current_item == 1:
+                self.current_item = None
+                return
             self.start_x = event.x
             self.start_y = event.y
 
@@ -86,8 +100,15 @@ class DrawShapeApp:
             self.canvas.coords(self.current_item, self.start_x, self.start_y, event.x, event.y)
             self.current_item = None  # Reset the current item
         if self.current_action == 'select':
-            self.canvas.tag_bind(self.current_item, "<ButtonPress-1>", self.change_color)
-            self.canvas.tag_bind(self.current_item, "<ButtonPress-3>", self.delete_shape)
+            self.current_item = self.canvas.find_closest(event.x, event.y)[0]
+            print(self.current_item)
+            if self.current_item == 1:
+                self.current_item = None
+                return
+            current_color = self.canvas.itemcget(self.current_item, "fill")
+            new_color = "red" if current_color != "red" else "green"
+            self.canvas.itemconfig(self.current_item, fill=new_color)
+            self.current_item = None
 
     def create_rectangle(self, x1, y1, x2, y2):
         return self.canvas.create_rectangle(x1, y1, x2, y2, outline='black', fill='green', tags='rectangle')
@@ -98,15 +119,19 @@ class DrawShapeApp:
     def create_line(self, x1, y1, x2, y2):
         return self.canvas.create_line(x1, y1, x2, y2, fill='black')
 
-    def change_color(self, event):
-        # Toggle the fill color between red and no fill
-        current_color = self.canvas.itemcget(event.widget.find_withtag("current"), "fill")
-        new_color = "red" if current_color != "red" else "green"
-        self.canvas.itemconfig(event.widget.find_withtag("current"), fill=new_color)
-
     def delete_shape(self, event):
         if self.current_action == "select":
-            self.current_item = self.canvas.find_closest(event.x, event.y)[0]
+            self.current_item = self.canvas.find_closest(event.x, event.y)
+            print(self.current_item)
+            if self.current_item == ():
+                self.current_item = None
+                return
+            
+            self.current_item = self.current_item[0]
+            if self.current_item == 1:
+                self.current_item = None
+                return
+            
             self.canvas.delete(self.current_item)
             self.current_item = None
 
@@ -119,7 +144,6 @@ def browse_files(SBM):
     SBM_full_text = filename
     
 if __name__ == "__main__":
-    print(os.listdir(os.getcwd() + "\\Tokens"))
     global SBM_full_text
     SBM_full_text = None
     root = tk.Tk()

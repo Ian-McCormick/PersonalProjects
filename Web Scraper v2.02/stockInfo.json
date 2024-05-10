@@ -1,0 +1,224 @@
+{
+    "Securities": [
+        {
+            "symbol": "AEGFX",
+            "type": "MF",
+            "name": "American Funds EuroPacific Growth Fund Class F-1"
+        },
+        {
+            "symbol": "AMFFX",
+            "type": "MF",
+            "name": "American Funds American Mutual Fund"
+        },
+        {
+            "symbol": "BA",
+            "type": "Stock",
+            "name": "Boeing"
+        },
+        {
+            "symbol": "BGRFX",
+            "type": "MF",
+            "name": "Baron Growth Fund Retail Shares"
+        },
+        {
+            "symbol": "CCVIX",
+            "type": "MF",
+            "name": "Calamos Convertible Fund Class A"
+        },
+        {
+            "symbol": "CIBFX",
+            "type": "MF",
+            "name": "American Funds Capital Income Builder-Class F-1"
+        },
+        {
+            "symbol": "CPXAX",
+            "type": "MF",
+            "name": "Cohen Steers Preferred Securities and Income Fund-Inc.Class A"
+        },
+        {
+            "symbol": "CSRSX",
+            "type": "MF",
+            "name": "Cohen Steers Realty Shares Fund"
+        },
+        {
+            "symbol": "EVFAX",
+            "type": "MF",
+            "name": "Eaton Vance Floating-Rate Advantage Adv"
+        },
+        {
+            "symbol": "FAGIX",
+            "type": "MF",
+            "name": "Fidelity Capital Income"
+        },
+        {
+            "symbol": "FEMKX",
+            "type": "MF",
+            "name": "Fidelity Emerging Markets Fund"
+        },
+        {
+            "symbol": "FLPSX",
+            "type": "MF",
+            "name": "Fidelity Low-Priced Stock Fund"
+        },
+        {
+            "symbol": "FNMIX",
+            "type": "MF",
+            "name": "Fidelity New Markets Income Fund"
+        },
+        {
+            "symbol": "FRUAX",
+            "type": "MF",
+            "name": "Franklin Utilities Fund Advance"
+        },
+        {
+            "symbol": "FSPHX",
+            "type": "MF",
+            "name": "Fidelity Select Health Care Portfolio"
+        },
+        {
+            "symbol": "FSUTX",
+            "type": "MF",
+            "name": "Fidelity Select Utilities Portfolio"
+        },
+        {
+            "symbol": "HWHIX",
+            "type": "MF",
+            "name": "Hotchkis and Wiley High Yield Fund Class I"
+        },
+        {
+            "symbol": "IRFAX",
+            "type": "MF",
+            "name": "Cohen Steers International Realty Fund Class A"
+        },
+        {
+            "symbol": "JSCOX",
+            "type": "MF",
+            "name": "Janus Henderson Small Cap Value I"
+        },
+        {
+            "symbol": "LFRIX",
+            "type": "MF",
+            "name": "Lord Abbett Floating Rate Fund Class I"
+        },
+        {
+            "symbol": "LMRIX",
+            "type": "MF",
+            "name": "1919 Financial Services Fund Class 1"
+        },
+        {
+            "symbol": "LSBDX",
+            "type": "MF",
+            "name": "Loomis Sayles Bond Fund Institutional Class"
+        },
+        {
+            "symbol": "MLPDX",
+            "type": "MF",
+            "name": "Oppenheimer SteelPath Funds MLP Income Fund Class A"
+        },
+        {
+            "symbol": "MMUFX",
+            "type": "MF",
+            "name": "MFS Utilities Fund Class A"
+        },
+        {
+            "symbol": "MSFT",
+            "type": "Stock",
+            "name": "Microsoft"
+        },
+        {
+            "symbol": "MWTRX",
+            "type": "MF",
+            "name": "Metropolitan West Total Return Bond Fund Class M"
+        },
+        {
+            "symbol": "NBGNX",
+            "type": "MF",
+            "name": "Neuberger Berman Genesis Fund Investor Class"
+        },
+        {
+            "symbol": "NPSRX",
+            "type": "MF",
+            "name": "Nuveen Preferred Securities and Income Fund Class I"
+        },
+        {
+            "symbol": "NWFFX",
+            "type": "MF",
+            "name": "American Funds New World Fund Class F-1"
+        },
+        {
+            "symbol": "OAKEX",
+            "type": "MF",
+            "name": "Oakmark International Small Cap Investor"
+        },
+        {
+            "symbol": "OSTGX",
+            "type": "MF",
+            "name": "Osterweis Emerging Opportunity Fund"
+        },
+        {
+            "symbol": "PDMIX",
+            "type": "MF",
+            "name": "PIMCO GNMA and Government Securities Fund Institutional Class"
+        },
+        {
+            "symbol": "PFORX",
+            "type": "MF",
+            "name": "PIMCO International Bond Fund (U.S. Dollar-Hedged) Institutional Class"
+        },
+        {
+            "symbol": "PRPFX",
+            "type": "MF",
+            "name": "Permanent Portfolio Permanent I"
+        },
+        {
+            "symbol": "PTLDX",
+            "type": "MF",
+            "name": "PIMCO Low Duration Fund Institutional Class"
+        },
+        {
+            "symbol": "PTTRX",
+            "type": "MF",
+            "name": "PIMCO Total Return Fund Institutional Class"
+        },
+        {
+            "symbol": "SDGIX",
+            "type": "MF",
+            "name": "BNY Mellon Global Fixed Income I"
+        },
+        {
+            "symbol": "TBGVX",
+            "type": "MF",
+            "name": "Tweedy Browne Global Value Fund"
+        },
+        {
+            "symbol": "TRBCX",
+            "type": "MF",
+            "name": "T. Rowe Price Blue Chip Growth Fund"
+        },
+        {
+            "symbol": "TRIGX",
+            "type": "MF",
+            "name": "T Rowe Price Intl Value Equity Fund"
+        },
+        {
+            "symbol": "VEIRX",
+            "type": "MF",
+            "name": "Vanguard Equity Income Admiral"
+        },
+        {
+            "symbol": "VIPSX",
+            "type": "MF",
+            "name": "Vanguard Inflation-Protected Secs Inv"
+        },
+        {
+            "symbol": "VSIAX",
+            "type": "MF",
+            "name": "Vanguard Small Cap Value Index Fund Admiral Shares"
+        },
+        {
+            "symbol": "WCMSX",
+            "type": "MF",
+            "name": "WCM International Small Cap Growth Fund Institutional Class"
+        }
+    ]
+}

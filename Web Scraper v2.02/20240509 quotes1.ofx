@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?OFX OFXHEADER="200" VERSION="200" SECURITY="NONE" OLDFILEUID="NONE" NEWFILEUID="NONE"?>
+<OFX>
+<!--Created by hleOfxQuotes on: Mon Dec 02 13:06:20 PST 2019-->
+<SIGNONMSGSRSV1>
+    <SONRS>
+    <!--DTSERVER local time is Mon Dec 02 13:06:20 PST 2019-->
+    <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+        <MESSAGE>Successful Sign On</MESSAGE>
+    </STATUS>
+    <DTSERVER>20240509170000.000[-8:PST]</DTSERVER>
+    <LANGUAGE>ENG</LANGUAGE>
+    </SONRS>
+</SIGNONMSGSRSV1>
+<INVSTMTMSGSRSV1>
+    <INVSTMTTRNRS>
+    <TRNUID>1637E38B-EADA-4C16-A3EB-22947D5FCB36</TRNUID>
+    <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+    </STATUS>
+    <!--DTASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+    <INVSTMTRS>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <CURDEF>USD</CURDEF>
+        <INVACCTFROM>
+        <BROKERID>hungle.com</BROKERID>
+        <ACCTID>0123456789</ACCTID>
+        </INVACCTFROM>
+        <INVPOSLIST>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>AEGFX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>58.46</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>AMFFX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>53.66</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+          <POSSTOCK>
+            <!--DTPRICEASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: BA-->
+            <SECID>
+                <UNIQUEID>BA</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>181.25</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+        </POSSTOCK>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>BGRFX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>94.45</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>CCVIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>20.2</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>CIBFX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>68.06</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>CPXAX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>11.97</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>CSRSX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>60.77</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>EVFAX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>10.06</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>FAGIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>9.89</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>FEMKX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>37.94</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>FLPSX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>47.69</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>FNMIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>12.51</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>FRUAX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>21.93</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>FSPHX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>28.73</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>FSUTX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>113.01</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>HWHIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>10.42</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>IRFAX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>8.79</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>JSCOX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>24.85</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>LFRIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>8.2</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>LMRIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>27.17</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>LSBDX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>11.43</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>MLPDX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>5.71</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>MMUFX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>22.08</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+          <POSSTOCK>
+            <!--DTPRICEASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: BA-->
+            <SECID>
+                <UNIQUEID>MSFT</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>412.32</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+        </POSSTOCK>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>MWTRX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>8.88</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>NBGNX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>64.13</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>NPSRX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>15.23</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>NWFFX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>79.11</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>OAKEX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>19.95</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>OSTGX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>16.0</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>PDMIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>9.25</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>PFORX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>9.84</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>PRPFX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>55.4</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>PTLDX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>9.15</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>PTTRX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>8.46</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>SDGIX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>19.88</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>TBGVX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>29.66</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>TRBCX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>171.41</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>TRIGX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>17.6</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>VEIRX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>90.13</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>VIPSX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>11.66</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>VSIAX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>81.01</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+                <POSMF>
+            <!--DTPRICEASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+            <INVPOS>
+            <!--Ticker from quote source is: CIBFX-->
+            <SECID>
+                <UNIQUEID>WCMSX</UNIQUEID>
+                <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+            </SECID>
+            <HELDINACCT>OTHER</HELDINACCT>
+            <POSTYPE>LONG</POSTYPE>
+            <UNITS>0.000</UNITS>
+            <UNITPRICE>20.37</UNITPRICE>
+            <MKTVAL>0.00</MKTVAL>
+            <DTPRICEASOF>20240509170000.000[-8:PST]</DTPRICEASOF>
+            <!--Price currency is same as default currency-->
+            <CURRENCY>
+                <CURRATE>1.00</CURRATE>
+                <CURSYM>USD</CURSYM>
+            </CURRENCY>
+            <MEMO>Price as of date based on closing price</MEMO>
+            </INVPOS>
+            <REINVDIV>Y</REINVDIV>
+            <REINVCG>Y</REINVCG>
+        </POSMF>
+        </INVPOSLIST>
+        </INVSTMTRS>
+        </INVSTMTTRNRS>
+    </INVSTMTMSGSRSV1>
+    <SECLISTMSGSRSV1>
+        <SECLIST>
+          <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>AEGFX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>American Funds EuroPacific Growth Fund Class F-1</SECNAME>
+        <TICKER>AEGFX</TICKER>
+        <UNITPRICE>58.46</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>AMFFX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>American Funds American Mutual Fund</SECNAME>
+        <TICKER>AMFFX</TICKER>
+        <UNITPRICE>53.66</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <STOCKINFO>
+        <!--Ticker from quote source is: BA-->
+        <!--DTASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+        <!--Security is treated as Stock-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>BA</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Boeing</SECNAME>
+        <TICKER>BA</TICKER>
+        <UNITPRICE>181.25</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+    </STOCKINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>BGRFX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Baron Growth Fund Retail Shares</SECNAME>
+        <TICKER>BGRFX</TICKER>
+        <UNITPRICE>94.45</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>CCVIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Calamos Convertible Fund Class A</SECNAME>
+        <TICKER>CCVIX</TICKER>
+        <UNITPRICE>20.2</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>CIBFX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>American Funds Capital Income Builder-Class F-1</SECNAME>
+        <TICKER>CIBFX</TICKER>
+        <UNITPRICE>68.06</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>CPXAX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Cohen Steers Preferred Securities and Income Fund-Inc.Class A</SECNAME>
+        <TICKER>CPXAX</TICKER>
+        <UNITPRICE>11.97</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>CSRSX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Cohen Steers Realty Shares Fund</SECNAME>
+        <TICKER>CSRSX</TICKER>
+        <UNITPRICE>60.77</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>EVFAX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Eaton Vance Floating-Rate Advantage Adv</SECNAME>
+        <TICKER>EVFAX</TICKER>
+        <UNITPRICE>10.06</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>FAGIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Fidelity Capital Income</SECNAME>
+        <TICKER>FAGIX</TICKER>
+        <UNITPRICE>9.89</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>FEMKX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Fidelity Emerging Markets Fund</SECNAME>
+        <TICKER>FEMKX</TICKER>
+        <UNITPRICE>37.94</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>FLPSX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Fidelity Low-Priced Stock Fund</SECNAME>
+        <TICKER>FLPSX</TICKER>
+        <UNITPRICE>47.69</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>FNMIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Fidelity New Markets Income Fund</SECNAME>
+        <TICKER>FNMIX</TICKER>
+        <UNITPRICE>12.51</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>FRUAX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Franklin Utilities Fund Advance</SECNAME>
+        <TICKER>FRUAX</TICKER>
+        <UNITPRICE>21.93</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>FSPHX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Fidelity Select Health Care Portfolio</SECNAME>
+        <TICKER>FSPHX</TICKER>
+        <UNITPRICE>28.73</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>FSUTX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Fidelity Select Utilities Portfolio</SECNAME>
+        <TICKER>FSUTX</TICKER>
+        <UNITPRICE>113.01</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>HWHIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Hotchkis and Wiley High Yield Fund Class I</SECNAME>
+        <TICKER>HWHIX</TICKER>
+        <UNITPRICE>10.42</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>IRFAX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Cohen Steers International Realty Fund Class A</SECNAME>
+        <TICKER>IRFAX</TICKER>
+        <UNITPRICE>8.79</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>JSCOX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Janus Henderson Small Cap Value I</SECNAME>
+        <TICKER>JSCOX</TICKER>
+        <UNITPRICE>24.85</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>LFRIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Lord Abbett Floating Rate Fund Class I</SECNAME>
+        <TICKER>LFRIX</TICKER>
+        <UNITPRICE>8.2</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>LMRIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>1919 Financial Services Fund Class 1</SECNAME>
+        <TICKER>LMRIX</TICKER>
+        <UNITPRICE>27.17</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>LSBDX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Loomis Sayles Bond Fund Institutional Class</SECNAME>
+        <TICKER>LSBDX</TICKER>
+        <UNITPRICE>11.43</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>MLPDX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Oppenheimer SteelPath Funds MLP Income Fund Class A</SECNAME>
+        <TICKER>MLPDX</TICKER>
+        <UNITPRICE>5.71</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>MMUFX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>MFS Utilities Fund Class A</SECNAME>
+        <TICKER>MMUFX</TICKER>
+        <UNITPRICE>22.08</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <STOCKINFO>
+        <!--Ticker from quote source is: BA-->
+        <!--DTASOF local time is Mon Dec 02 13:00:01 PST 2019-->
+        <!--Security is treated as Stock-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>MSFT</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Microsoft</SECNAME>
+        <TICKER>MSFT</TICKER>
+        <UNITPRICE>412.32</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+    </STOCKINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>MWTRX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Metropolitan West Total Return Bond Fund Class M</SECNAME>
+        <TICKER>MWTRX</TICKER>
+        <UNITPRICE>8.88</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>NBGNX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Neuberger Berman Genesis Fund Investor Class</SECNAME>
+        <TICKER>NBGNX</TICKER>
+        <UNITPRICE>64.13</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>NPSRX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Nuveen Preferred Securities and Income Fund Class I</SECNAME>
+        <TICKER>NPSRX</TICKER>
+        <UNITPRICE>15.23</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>NWFFX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>American Funds New World Fund Class F-1</SECNAME>
+        <TICKER>NWFFX</TICKER>
+        <UNITPRICE>79.11</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>OAKEX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Oakmark International Small Cap Investor</SECNAME>
+        <TICKER>OAKEX</TICKER>
+        <UNITPRICE>19.95</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>OSTGX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Osterweis Emerging Opportunity Fund</SECNAME>
+        <TICKER>OSTGX</TICKER>
+        <UNITPRICE>16.0</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>PDMIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>PIMCO GNMA and Government Securities Fund Institutional Class</SECNAME>
+        <TICKER>PDMIX</TICKER>
+        <UNITPRICE>9.25</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>PFORX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>PIMCO International Bond Fund (U.S. Dollar-Hedged) Institutional Class</SECNAME>
+        <TICKER>PFORX</TICKER>
+        <UNITPRICE>9.84</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>PRPFX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Permanent Portfolio Permanent I</SECNAME>
+        <TICKER>PRPFX</TICKER>
+        <UNITPRICE>55.4</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>PTLDX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>PIMCO Low Duration Fund Institutional Class</SECNAME>
+        <TICKER>PTLDX</TICKER>
+        <UNITPRICE>9.15</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>PTTRX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>PIMCO Total Return Fund Institutional Class</SECNAME>
+        <TICKER>PTTRX</TICKER>
+        <UNITPRICE>8.46</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>SDGIX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>BNY Mellon Global Fixed Income I</SECNAME>
+        <TICKER>SDGIX</TICKER>
+        <UNITPRICE>19.88</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>TBGVX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Tweedy Browne Global Value Fund</SECNAME>
+        <TICKER>TBGVX</TICKER>
+        <UNITPRICE>29.66</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>TRBCX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>T. Rowe Price Blue Chip Growth Fund</SECNAME>
+        <TICKER>TRBCX</TICKER>
+        <UNITPRICE>171.41</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>TRIGX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>T Rowe Price Intl Value Equity Fund</SECNAME>
+        <TICKER>TRIGX</TICKER>
+        <UNITPRICE>17.6</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>VEIRX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Vanguard Equity Income Admiral</SECNAME>
+        <TICKER>VEIRX</TICKER>
+        <UNITPRICE>90.13</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>VIPSX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Vanguard Inflation-Protected Secs Inv</SECNAME>
+        <TICKER>VIPSX</TICKER>
+        <UNITPRICE>11.66</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>VSIAX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>Vanguard Small Cap Value Index Fund Admiral Shares</SECNAME>
+        <TICKER>VSIAX</TICKER>
+        <UNITPRICE>81.01</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+        <SECID>
+            <UNIQUEID>WCMSX</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+        </SECID>
+        <SECNAME>WCM International Small Cap Growth Fund Institutional Class</SECNAME>
+        <TICKER>WCMSX</TICKER>
+        <UNITPRICE>20.37</UNITPRICE>
+        <DTASOF>20240509170000.000[-8:PST]</DTASOF>
+        <!--Price currency is same as default currency-->
+        <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+        </CURRENCY>
+        <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+    </MFINFO>
+    </SECLIST>
+  </SECLISTMSGSRSV1>
+</OFX>

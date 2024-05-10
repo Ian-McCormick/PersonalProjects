@@ -1,0 +1,22 @@
+      <MFINFO>
+        <!--Ticker from quote source is: CIBFX-->
+        <!--DTASOF local time is Fri Nov 29 17:00:38 PST 2019-->
+        <!--Security is treated as Mutual Fund-->
+        <SECINFO>
+          <SECID>
+            <UNIQUEID>%s</UNIQUEID>
+            <UNIQUEIDTYPE>TICKER</UNIQUEIDTYPE>
+          </SECID>
+          <SECNAME>%s</SECNAME>
+          <TICKER>%s</TICKER>
+          <UNITPRICE>%.3f</UNITPRICE>
+          <DTASOF>%s</DTASOF>
+          <!--Price currency is same as default currency-->
+          <CURRENCY>
+            <CURRATE>1.00</CURRATE>
+            <CURSYM>USD</CURSYM>
+          </CURRENCY>
+          <MEMO>Price as of date based on closing price</MEMO>
+        </SECINFO>
+        <MFTYPE>OPENEND</MFTYPE>
+      </MFINFO>
