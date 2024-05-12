@@ -1,11 +1,14 @@
+from pyparsing import col
 import requests
 import os
 from bs4 import BeautifulSoup
 from tkinter import *
 from datetime import date, datetime
 import json
+import time
 
 CURRENT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+TIME_TO_WAIT = 2 #seconds
 
 MONTHS = \
 {
@@ -230,7 +233,7 @@ class Main:
         self.entryName.grid(row=3, column=1)
 
         #create final options
-        buttonTXT = Button(root, text = "create txt", command=lambda event=None: self.write2txt())
+        buttonTXT = Button(root, text = "Add/Remove symbol", command=lambda event=None: self.editSecurities(root))
         buttonOFX = Button(root, text = "create OFX", command=lambda event=None: self.createOFX())
 
         buttonTXT.grid(row = 4, column=0)
@@ -256,24 +259,31 @@ class Main:
         filename.set(year + month + day + " quotes")
         self.entryName.configure(text = filename)
 
-    def write2txt(self):
-        #initialize local variables
-        date = self.selectedMonth.get() + " " + self.selectedDay.get() + ", " + self.selectedYear.get()
-        filename = self.entryName.get().split(" ")[0] + " data.txt"
-        f_out = open(filename, "w+")
+    def editSecurities(self, root):
+        child = Toplevel(root)
 
-        #loop through all securities from stockInfo.json
-        for security in self.securities:
-            currentTag = security.symbol
-            print(currentTag)
-            price = self.getClosePrice(date, currentTag)
+        #lock parent window until this one is closed
+        child.grab_set()
 
-            #if theres a valid entry, write that to file
-            if price != -1:
-                f_out.write(currentTag + "\t\t")
-                f_out.write(price + "\n")
-        f_out.close()
-        print("\n Done!")
+        #create labels for inputs
+        Label(child, text = "Symbol").grid(row = 1, column = 0)
+        Label(child, text = "type").grid(row = 2, column = 0)
+        Label(child, text = "Name").grid(row = 3, column = 0)
+
+        #create entries
+        newSymbol = Entry(child)
+        newName = Entry(child)
+        newType = StringVar()
+        typeOptions= ["MF", "Stock"]
+        newType.set(typeOptions[0])
+        typeField = OptionMenu(child, newType, *typeOptions)
+
+        #place fields
+        newSymbol.grid(row = 1, column = 1)
+        typeField.grid(row = 2, column = 1)
+        newName.grid(row = 3, column = 1)
+
+        #create and place execution buttons     
 
     def createOFX(self):
         #get filename
@@ -298,6 +308,7 @@ class Main:
 
         #go through all selected securities
         for security in self.securities:
+            time.sleep(TIME_TO_WAIT)
             currentSymbol = security.symbol
             print(currentSymbol)
             price = self.getClosePrice(selectedDate, currentSymbol)
@@ -331,22 +342,36 @@ class Main:
             print("Response error from Yahoo")
             return -1
         
-        #start scraping the data
-        source = BeautifulSoup(result.content, "html.parser")
-        valueTable = source.find("table", {"class":"table svelte-ewueuo"})
-        #we include the [1:-1] to exclude the column names
-        allDates = valueTable.find_all("tr")[1:-1]
+        try:
+            #start scraping the data
+            source = BeautifulSoup(result.content, "html.parser")
+            valueTable = source.find("table", {"class":"table svelte-ewueuo"})
+            #we include the [1:-1] to exclude the column names
+            allDates = valueTable.find_all("tr")[1:-1]
 
-        for datePoint in allDates:
-            values = datePoint.find_all("td")
-            if date == values[0].text:
-                if isFloat(values[4].text):
-                    return float(values[4].text)
-                else:
-                    print("Error 2: no valid data in selected date")
-                    return -1
-        print("Error 1: no entry for specified date")
-        return -1     
+            for datePoint in allDates:
+                values = datePoint.find_all("td")
+
+                #sometimes Yahoo puts divedends, we check the length to only get closing prices
+                if date == values[0].text:
+                    #sometimes Yahoo puts divedends, we check the length to only get closing prices
+                    if len(values) <7:
+                        print("Error 3: Date found with invalid format, continuing search")
+                        continue
+                    if isFloat(values[4].text):
+                        print("entry for {symbol} found".format(symbol = symbol))
+                        return float(values[4].text)
+                    else:
+                        print("Error 2: no valid data in selected date")
+                        return -1
+            print("Error 1: no entry for specified date")
+            return -1     
+        except Exception as e:
+            print("An Error has occured with the Yahoo Webpage/servers")
+            print("Press enter to exit the program as not to cause partially finished OFX files")
+            print(e)
+            input()
+            exit()
 
 def writeError(ex):
     now = datetime.now()
