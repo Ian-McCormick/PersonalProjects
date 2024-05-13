@@ -278,12 +278,55 @@ class Main:
         newType.set(typeOptions[0])
         typeField = OptionMenu(child, newType, *typeOptions)
 
+        
+
         #place fields
         newSymbol.grid(row = 1, column = 1)
         typeField.grid(row = 2, column = 1)
         newName.grid(row = 3, column = 1)
 
-        #create and place execution buttons     
+        #create and place execution buttons
+        Button(child, text="Remove Stock", command=lambda: 
+               self.removeJson(child, newSymbol.get().upper().strip(), 
+                               newType.get().strip(), 
+                               newName.get().strip())).grid(row=4, column=0)
+        
+        Button(child, text="Add Stock", command=lambda: 
+               self.addJson(child, newSymbol.get().upper().strip(), 
+                            newType.get().strip(), 
+                            newName.get().strip())).grid(row=4, column=1)
+
+    def addJson(self, window, symbol, sType, name):
+        self.clearEditMessage(window)
+        for sec in self.securities:
+            if sec.symbol == symbol:
+                Label(window, text="Stock already in JSON", fg = "#FF0000").grid(row=5, column=0)
+                return
+            
+        self.securities.append(Security(symbol, sType, name))
+        self.securities.sort(key=lambda sec: sec.symbol)
+        jsonString = json.dumps({"Securities": [tag.__dict__ for tag in self.securities]}, indent=4)
+        f_out = open(CURRENT_DIRECTORY + "\\test.json", "w+")
+        f_out.write(jsonString)
+        f_out.close()
+
+    def removeJson(self, window, symbol, sType, name):
+        self.clearEditMessage(window)
+        for sec in self.securities:
+            if sec.symbol == symbol:
+                self.securities.remove(sec)
+                jsonString = json.dumps({"Securities": [tag.__dict__ for tag in self.securities]}, indent=4)
+                f_out = open(CURRENT_DIRECTORY + "\\test.json", "w+")
+                f_out.write(jsonString)
+                f_out.close()
+                return
+        Label(window, text="Stock not in JSON", fg = "#FF0000").grid(row=5, column=0)
+        return
+
+    def clearEditMessage(self, window):
+        for label in window.grid_slaves():
+            if int(label.grid_info()["row"]) >=5:
+                label.grid_forget()
 
     def createOFX(self):
         #get filename
