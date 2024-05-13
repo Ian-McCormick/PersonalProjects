@@ -306,7 +306,7 @@ class Main:
         self.securities.append(Security(symbol, sType, name))
         self.securities.sort(key=lambda sec: sec.symbol)
         jsonString = json.dumps({"Securities": [tag.__dict__ for tag in self.securities]}, indent=4)
-        f_out = open(CURRENT_DIRECTORY + "\\test.json", "w+")
+        f_out = open(CURRENT_DIRECTORY + "\\stockInfo.json", "w+")
         f_out.write(jsonString)
         f_out.close()
 
@@ -316,7 +316,7 @@ class Main:
             if sec.symbol == symbol:
                 self.securities.remove(sec)
                 jsonString = json.dumps({"Securities": [tag.__dict__ for tag in self.securities]}, indent=4)
-                f_out = open(CURRENT_DIRECTORY + "\\test.json", "w+")
+                f_out = open(CURRENT_DIRECTORY + "\\stockInfo.json", "w+")
                 f_out.write(jsonString)
                 f_out.close()
                 return
