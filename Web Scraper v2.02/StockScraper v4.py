@@ -193,9 +193,6 @@ class Main:
         labelName.grid(row = 3, column = 0)
 
         #create entry variables
-        today = str(date.today())
-        key = [k for k, v in MONTHS.items() if v == today[5:7]][0]
-
         self.selectedDay = StringVar()
         self.selectedMonth = StringVar()
         self.selectedYear = StringVar()
